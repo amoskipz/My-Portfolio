@@ -1,0 +1,277 @@
+html{
+  scroll-behavior: smooth;
+}
+.container_navbarmenu {
+    width: 100%;
+    margin: 0;
+  }
+  .container_navbarmenu ul {
+    background-color: #414141;
+    text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 26px;
+    overflow: hidden;
+  }
+  .container_navbarmenu ul li {
+    text-transform: uppercase;
+    display: inline;
+    padding: inherit;
+  }
+  .container_navbarmenu ul li a {
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 13px;
+    color: #fff;
+    display: inline;
+  }
+  .container_navbarmenu ul li:hover {
+    background-color: #0ebbd3;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .container_footer {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+  }
+  .container_bio {
+    background: #373737;
+    padding: 0 20px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  .container_bio h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0;
+  }
+  .container_bio p {
+    text-align: center;
+    padding: 15px;
+  }
+  .container_bio div {
+    padding: 20px 0;
+  }
+  .container_bio div img {
+    border-radius: 50%;
+    border: #0fcce6 2.5px solid;
+  }
+  .container_projects {
+    padding: 15px;
+    margin: 20px 0;
+  }
+  .container_projects h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .container_projects ul {
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+  }
+  .container_projects ul h3 {
+    padding: 10px;
+    border-radius: 5px;
+    background: #585858;
+  }
+  .container_projects ul li {
+    list-style-type: none;
+    background: #444444;
+    margin: 20px 0;
+    padding: 30px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  body {
+    background: rgba(68, 68, 68, 0.9);
+    color: #fff;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  hr {
+    width: 90%;
+    border: 1px solid #444444;
+  }
+  
+  .container_form, .container_media, .container_table, .container_heroimage, .container_tasks, .container_bio, .container_projects,.container_projects ul li {
+    border-radius: 3.5px;
+    box-shadow: 0 3.5px 8px 0 #161616;
+  }
+  
+  .container_tasks {
+    background-color: #414141;
+    height: 350px;
+    padding: 8px;
+    margin: 30px 0;
+    text-align: center;
+  }
+  .container_tasks:hover {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 3.5px 8px 0 #494949;
+  }
+  .container_tasks h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .container_tasks ul {
+    padding: 70px;
+  }
+  .container_tasks ul li {
+    list-style: none;
+    box-shadow: 0 3.5px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #4e4e4e;
+    display: inline;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 15px;
+  }
+  .container_heroimage {
+    background: url("../../assets/background_image.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 560px;
+    padding: 10px;
+    margin: 30px 0;
+    text-align: center;
+  }
+  .container_heroimage:hover {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 3.5px 8px 0 #494949;
+  }
+  .container_heroimage h1 {
+    padding: 20px 0 0 0;
+  }
+  .container_heroimage h1 span {
+    color: #0fcce6;
+  }
+  .container_heroimage button {
+    padding: 25px;
+    background: inherit;
+    width: 200px;
+    margin: 220px 0;
+    border: #0fcce6 2.5px solid;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  .container_heroimage button:hover {
+    transition: all 0.5s ease-in-out;
+    background: #0fcce6;
+  }
+  .container_table {
+    background-color: #414141;
+    height: 320px;
+    padding: 20px;
+    margin: 30px 0;
+    text-align: justify;
+  }
+  .container_table:hover {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 3.5px 8px 0 #494949;
+  }
+  .container_table h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .container_table table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .container_table table tr td {
+    border: #fff 1px solid;
+    text-align: center;
+    padding: 15px;
+  }
+  .container_table table tr th {
+    border: #fff 1px solid;
+    text-align: center;
+    padding: 12px;
+  }
+  .container_table table tr:nth-child(even) {
+    background-color: #5e5e5e;
+  }
+  .container_media:hover {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 3.5px 8px 0 #494949;
+  }
+  .container_media ul li {
+    list-style: none;
+    display: inline;
+  }
+  .container_media h2 {
+    padding: 20px 0;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .container_media div {
+    display: inline-flex;
+    background-color: #414141;
+    border-radius: 4.5px;
+    width: 88%;
+    margin: 50px;
+  }
+  .container_media div video {
+    width: 100%;
+    height: auto;
+  }
+  .container_media div audio {
+    margin: 50px 400px;
+  }
+  .container_form {
+    background-color: #3f3f3f;
+    padding: 20px;
+    display: block;
+    margin: 20px 0;
+  }
+  .container_form:hover {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 3.5px 8px 0 #494949;
+  }
+  .container_form h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .container_form form {
+    padding: 0 50px;
+  }
+  .container_form form input {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 30px 0;
+    display: block;
+    border: 1px solid #bdb9b9;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .container_form form button {
+    padding: 10px;
+    background: #0088f7;
+    margin: 10px 40%;
+    width: 200px;
+    border-radius: 5px;
+    border: #0088f7 2.5px solid;
+    color: #fff;
+    font-size: 15px;
+  }
+  .container_form form button:hover {
+    transition: all 0.5s ease-in-out;
+    background: inherit;
+    border: #0088f7 2.5px solid;
+  }
+  #contact {
+    display: inline-flex;
+    background-color: #414141;
+    border-radius: 4.5px;
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  #contact>ul>li{
+    list-style-type: none;
+    padding: 10px;
+  }
+  #contact:hover {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 3.5px 8px 0 #494949;
+  }
