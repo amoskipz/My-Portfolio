@@ -128,7 +128,7 @@ html{
     margin: 15px;
   }
   .container_heroimage {
-    background: url("../../assets/background_image.png");
+    background: url("../../assets/hero.png");
     background-size: cover;
     background-attachment: fixed;
     height: 560px;
@@ -150,7 +150,7 @@ html{
     padding: 25px;
     background: inherit;
     width: 200px;
-    margin: 220px 0;
+    margin: 240px 0;
     border: #0fcce6 2.5px solid;
     border-radius: 10px;
     color: white;
