@@ -128,7 +128,7 @@ html{
     margin: 15px;
   }
   .container_heroimage {
-    background: url("../assets/hero.png");
+    background: url("./assets/hero.png");
     background-size: cover;
     background-attachment: fixed;
     height: 560px;
